@@ -6,8 +6,6 @@ public class AdManager : MonoBehaviour, IUnityAdsListener
 {
     public static AdManager Instance;
 
-    [SerializeField] private bool testMode = false;
-
 #if UNITY_ANDROID
      private string gameId = "4457933";
 #elif UNITY_IOS
@@ -28,7 +26,7 @@ public class AdManager : MonoBehaviour, IUnityAdsListener
             DontDestroyOnLoad(gameObject);
 
             Advertisement.AddListener(this);
-            Advertisement.Initialize(gameId, testMode);
+            Advertisement.Initialize(gameId);
         }
     }
 
