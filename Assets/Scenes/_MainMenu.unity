@@ -1526,7 +1526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d374bc7c7ca404687e46a69151afd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testMode: 1
 --- !u!4 &474980455
 Transform:
   m_ObjectHideFlags: 0
@@ -2156,8 +2155,6 @@ GameObject:
   - component: {fileID: 1365955661}
   - component: {fileID: 1365955666}
   - component: {fileID: 1365955667}
-  - component: {fileID: 1365955668}
-  - component: {fileID: 1365955669}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -2492,31 +2489,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &1365955668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365955660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb03aa9933da15a418eeb5645d7b6a59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1365955669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365955660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2130a9a8e82f4b4e8d6b1be6c9baedd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 1365955667}
 --- !u!1 &1366371493
 GameObject:
   m_ObjectHideFlags: 0

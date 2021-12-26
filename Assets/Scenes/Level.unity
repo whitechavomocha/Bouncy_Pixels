@@ -754,7 +754,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 14.0625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -777,7 +777,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: -1e-45, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -1.5046328e-36, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -815,6 +815,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 2343903322916251030, guid: 9b599debb2d293249affed90e3603ce8, type: 3}
   pivot: {fileID: 1489548528}
+  detachDelay: 0.15
+  respawnDelay: 1
+  ballRb: {fileID: 0}
 --- !u!4 &627897902
 Transform:
   m_ObjectHideFlags: 0
@@ -2074,7 +2077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468261988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: 0, z: 0}
+  m_LocalPosition: {x: 19.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2094,7 +2097,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - {fileID: 6257186451503784201, guid: 63bd7b7a9165ded4d8b4e2b792be5632, type: 3}
-  - {fileID: 2906874796608849622, guid: a08fbf6a2dd8fe3469e5a664774b2f4b, type: 3}
   - {fileID: 3377837099705703371, guid: dad45343f78eea14bb471034d345565d, type: 3}
   spawnSpeed: 3
 --- !u!1 &1489548527
@@ -2433,7 +2435,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833609960}
-  m_LocalRotation: {x: -1e-45, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -1.5046328e-36, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
